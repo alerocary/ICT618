@@ -34,4 +34,3 @@ print(f"Division: {divide(num1, num2)}")
 print(f"Square of the first number: {square(num1)}")
 print(f"Square of the second number: {square(num2)}")
 
-
