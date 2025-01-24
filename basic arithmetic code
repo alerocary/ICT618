@@ -17,6 +17,10 @@ def divide(a, b):
     else:
         return "Division by zero is not allowed!"
 
+# Function for square
+def square(a):
+    return a ** 2
+
 # Main program
 print("Basic Arithmetic Operations")
 num1 = float(input("Enter the first number: "))
@@ -27,4 +31,7 @@ print(f"Addition: {add(num1, num2)}")
 print(f"Subtraction: {subtract(num1, num2)}")
 print(f"Multiplication: {multiply(num1, num2)}")
 print(f"Division: {divide(num1, num2)}")
+print(f"Square of the first number: {square(num1)}")
+print(f"Square of the second number: {square(num2)}")
+
 
